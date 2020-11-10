@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_go/demo/font_demo.dart';
+import 'package:flutter_go/demo/image_demo.dart';
 import 'package:flutter_go/demo/navigator2_demo.dart';
 import 'package:flutter_go/demo/route_demo.dart';
 
@@ -32,7 +33,7 @@ class Demo extends StatelessWidget {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => FontDemo()),
+              MaterialPageRoute(builder: (context) => ImageDemo()),
             );
           },
         )
