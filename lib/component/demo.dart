@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_go/demo/audioplayer_demo.dart';
 import 'package:flutter_go/demo/auido_demo.dart';
 import 'package:flutter_go/demo/font_demo.dart';
 import 'package:flutter_go/demo/image_demo.dart';
@@ -64,6 +65,15 @@ class Demo extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => AudioDemo()),
+            );
+          },
+        ),
+        ListTile(
+          title: Text("Audio Player Demo"),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => AudioPlayerDemo()),
             );
           },
         ),
