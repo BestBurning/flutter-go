@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_go/demo/auido_demo.dart';
 import 'package:flutter_go/demo/font_demo.dart';
 import 'package:flutter_go/demo/image_demo.dart';
 import 'package:flutter_go/demo/navigator2_demo.dart';
 import 'package:flutter_go/demo/route_demo.dart';
+import 'package:flutter_go/demo/sound_demo.dart';
 import 'package:flutter_go/demo/statefull_demo.dart';
 
 class Demo extends StatelessWidget {
@@ -46,7 +48,25 @@ class Demo extends StatelessWidget {
               MaterialPageRoute(builder: (context) => StatefullDemo()),
             );
           },
-        )
+        ),
+        ListTile(
+          title: Text("Sound Demo"),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => SoundDemo()),
+            );
+          },
+        ),
+        ListTile(
+          title: Text("Audio Demo"),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => AudioDemo()),
+            );
+          },
+        ),
       ],
     );
   }

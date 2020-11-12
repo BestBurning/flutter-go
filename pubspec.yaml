@@ -8,6 +8,7 @@ dependencies:
     flutter:
         sdk: flutter
     cupertino_icons: ^1.0.0
+    just_audio: ^0.5.6
 dev_dependencies:
     flutter_test:
         sdk: flutter
@@ -21,6 +22,14 @@ flutter:
     - images/dice4.png
     - images/dice5.png
     - images/dice6.png
+    - assets/note1.wav
+    - assets/note1.wav
+    - assets/note2.wav
+    - assets/note3.wav
+    - assets/note4.wav
+    - assets/note5.wav
+    - assets/note6.wav
+    - assets/note7.wav
   fonts:
     - family: ZCOOLXiaoWei
       fonts:
